@@ -1,0 +1,50 @@
+/* Base page styles */
+body {
+  font-family: Verdana, Arial, sans-serif; /* Different font family */
+  background-color: #f4f7fb;              /* Light page background */
+  color: #333333;                         /* Default text colour */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main headings and subheadings */
+h1 {
+  color: #1b4b82;        /* Dark blue main headings */
+  font-size: 2.2rem;     /* Larger size for visual hierarchy */
+  text-align: center;    /* Center main headings */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #336699;        /* Lighter blue for subheadings */
+  font-size: 1.5rem;     /* Smaller than h1 to show hierarchy */
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  color: #444444;        /* Paragraph text colour */
+  line-height: 1.6;      /* Improve readability */
+  text-align: left;
+  margin-bottom: 12px;   /* Space between paragraphs */
+}
+
+/* Images */
+img {
+  display: inline-block;
+  margin: 10px 10px 10px 0;  /* Space around images */
+  border-radius: 4px;        /* Slightly rounded corners */
+}
+
+/* Links */
+a {
+  color: #c0392b;        /* Red-ish link colour to stand out */
+  text-decoration: none; /* Remove default underline */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}
